@@ -1,0 +1,80 @@
+
+{
+  "id": "com.armmali.app",
+  "name": "Alliance pour le Rassemblement Malien",
+  "short_name": "ARM Mali",
+  "description": "Portail officiel de l'ARM (Alliance pour le Rassemblement Malien). Plateforme citoyenne pour le renouveau, la justice sociale et la souveraineté du Mali.",
+  "lang": "fr-ML",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay"],
+  "background_color": "#f9fafb",
+  "theme_color": "#14B53A",
+  "orientation": "portrait",
+  "categories": ["government", "social", "news", "politics"],
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/arm_logo_192/192/192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://picsum.photos/seed/arm_logo_192_mask/192/192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://picsum.photos/seed/arm_logo_512/512/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Adhérer",
+      "url": "/?section=join",
+      "icons": [{ "src": "https://picsum.photos/seed/join_icon/96/96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Préoccupations",
+      "url": "/?section=concerns",
+      "icons": [{ "src": "https://picsum.photos/seed/concern_icon/96/96.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://picsum.photos/seed/arm_mobile_home/1080/1920.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Accueil Mobile ARM"
+    },
+    {
+      "src": "https://picsum.photos/seed/arm_mobile_concerns/1080/1920.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Espace Citoyen Direct"
+    },
+    {
+      "src": "https://picsum.photos/seed/arm_desktop_dashboard/1920/1080.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tableau de Bord ARM Desktop"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.armmali.official",
+      "id": "com.armmali.official"
+    }
+  ],
+  "prefer_related_applications": false
+}
